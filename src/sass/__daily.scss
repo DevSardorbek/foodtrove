@@ -1,0 +1,68 @@
+.daily__wrapper {
+  margin-top: 78px;
+  margin-bottom: 40px;
+  .container {
+    width: 1400px;
+    .daily__section {
+      background-image: url("https://s3-alpha-sig.figma.com/img/873d/c368/ab905c42ffa13dd8cdae0c7a05e4deec?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HGQlYahQT3shMJzdWXvn2L3NXTbBDmSpwz2yHzvQXC0RiQN3LpFwdW7vjBDQA1kLN0VGPSdJLP43B3rG5BACAJ1Awk~AsO9jzXCSyUYOjOMErXxLrkrVloBTxuMxJybYWpaKFYD8cPl8k9jh3BSDTOt8-8Eg1F4BZ62ozuiy50eTm12iUFlB1b6lp4Tcfr5uAOzusrNUKbwC7co1pY5W7ERgJBhzsBG7Fhf-w6z8FapB2cc1j-zioMPmkbujz0bAhqB3pUVAxe9FYXdWsAu37BYuppvTqN0~fGGYyTL19pGtHgGIMVcIuNiXJzXSUk0hy8fV7BI~XWuodXfS-etZpg__");
+      display: flex;
+      justify-content: space-between;
+      padding-top: 83px;
+      padding-left: 78px;
+      padding-right: 50px;
+      .daily__seciton-info {
+        h1 {
+          width: 530px;
+          font-family: sans-serif;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 48px;
+          text-align: left;
+          color: #253d4e;
+        }
+        p {
+          font-family: Lato;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: left;
+          color: #7e7e7e;
+          margin-top: 20px;
+          margin-bottom: 46px;
+          span {
+            color: #3bb77e;
+          }
+        }
+        form {
+          width: 473px;
+          height: 64px;
+          background-color: #fff;
+          border-radius: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          input {
+            border: none;
+            background: transparent;
+          }
+          button {
+            padding: 19.7px 40px;
+            border-radius: 50px;
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+            text-align: center;
+            background-color: #f53e32;
+            color: #fff;
+            transition: 0.3s;
+            &:hover {
+              background-color: #fc847c;
+            }
+          }
+        }
+      }
+    }
+  }
+}
